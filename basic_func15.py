@@ -8,4 +8,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    return a%b
+a,b = int(input("a = ")),int(input("b = "))
+print(main(a,b))
